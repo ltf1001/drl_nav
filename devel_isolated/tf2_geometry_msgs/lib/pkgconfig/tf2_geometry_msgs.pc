@@ -1,0 +1,8 @@
+prefix=/home/dell/drl/devel_isolated/tf2_geometry_msgs
+
+Name: tf2_geometry_msgs
+Description: Description of tf2_geometry_msgs
+Version: 0.7.7
+Cflags: -I/home/dell/drl/src/geometry2/tf2_geometry_msgs/include -I/usr/local/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib /usr/local/lib/liborocos-kdl.so /usr/local/lib/liborocos-kdl.so.1.5.1
+Requires: geometry_msgs tf2_ros tf2

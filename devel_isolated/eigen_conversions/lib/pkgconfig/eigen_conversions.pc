@@ -1,0 +1,8 @@
+prefix=/home/dell/drl/devel_isolated/eigen_conversions
+
+Name: eigen_conversions
+Description: Description of eigen_conversions
+Version: 1.13.2
+Cflags: -I/home/dell/drl/src/geometry/eigen_conversions/include -I/usr/include/eigen3 -I/usr/local/include
+Libs: -L${prefix}/lib -leigen_conversions /usr/local/lib/liborocos-kdl.so.1.5.1
+Requires: geometry_msgs std_msgs

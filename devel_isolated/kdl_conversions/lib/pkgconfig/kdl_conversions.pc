@@ -1,0 +1,8 @@
+prefix=/home/dell/drl/devel_isolated/kdl_conversions
+
+Name: kdl_conversions
+Description: Description of kdl_conversions
+Version: 1.13.2
+Cflags: -I/home/dell/drl/src/geometry/kdl_conversions/include -I/usr/local/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lkdl_conversions /usr/local/lib/liborocos-kdl.so.1.5.1
+Requires: geometry_msgs

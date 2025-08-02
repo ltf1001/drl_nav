@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/dell/drl/devel_isolated/test_tf2/setup.sh

@@ -1,0 +1,8 @@
+prefix=/home/dell/drl/devel_isolated/tf2_eigen
+
+Name: tf2_eigen
+Description: Description of tf2_eigen
+Version: 0.7.7
+Cflags: -I/home/dell/drl/src/geometry2/tf2_eigen/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib 
+Requires: tf2

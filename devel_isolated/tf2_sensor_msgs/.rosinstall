@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/dell/drl/devel_isolated/tf2_sensor_msgs/setup.sh
